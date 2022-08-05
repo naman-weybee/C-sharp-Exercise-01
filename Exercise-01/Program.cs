@@ -15,22 +15,29 @@ namespace Exercise_01
         {
             if (int.TryParse(num, out int num1))
             {
-                Console.WriteLine("----- Half Pyramid -----");
-                Console.WriteLine();
-                char k;
-                for (int i = 0; i <= num1; i++)
+                if (num1 == 0)
                 {
-                    k = 'A';
-                    for (int j = 1; j <= i; j++)
-                    {
-                        Console.Write(k++ + " ");
-                    }
-                    k--;
-                    for (int m = 1; m < i; m++)
-                    {
-                        Console.Write(--k + " ");
-                    }
+                    throw new CurrentException("You Can not Pass 0 in Input...!");
+                }
+                else
+                {
+                    Console.WriteLine("----- Half Pyramid -----");
                     Console.WriteLine();
+                    char k;
+                    for (int i = 0; i <= num1; i++)
+                    {
+                        k = 'A';
+                        for (int j = 1; j <= i; j++)
+                        {
+                            Console.Write(k++ + " ");
+                        }
+                        k--;
+                        for (int m = 1; m < i; m++)
+                        {
+                            Console.Write(--k + " ");
+                        }
+                        Console.WriteLine();
+                    }
                 }
             }
             else
@@ -69,26 +76,33 @@ namespace Exercise_01
     //    {
     //        if (int.TryParse(num, out int num1))
     //        {
-    //            Console.WriteLine("----- Half Pyramid -----");
-    //            Console.WriteLine();
-    //            char k;
-    //            for (int i = 1; i <= num1; i++)
+    //            if (num1 == 0)
     //            {
-    //                k = 'A';
-    //                for (int n = num1; n > i; n--)
-    //                {
-    //                    Console.Write(" ");
-    //                }
-    //                for (int j = 1; j <= i; j++)
-    //                {
-    //                    Console.Write(k++);
-    //                }
-    //                k--;
-    //                for (int m = 1; m < i; m++)
-    //                {
-    //                    Console.Write(--k);
-    //                }
+    //                throw new CurrentException("You Can not Pass 0 in Input...!");
+    //            }
+    //            else
+    //            {
+    //                Console.WriteLine("----- Half Pyramid -----");
     //                Console.WriteLine();
+    //                char k;
+    //                for (int i = 1; i <= num1; i++)
+    //                {
+    //                    k = 'A';
+    //                    for (int n = num1; n > i; n--)
+    //                    {
+    //                        Console.Write(" ");
+    //                    }
+    //                    for (int j = 1; j <= i; j++)
+    //                    {
+    //                        Console.Write(k++);
+    //                    }
+    //                    k--;
+    //                    for (int m = 1; m < i; m++)
+    //                    {
+    //                        Console.Write(--k);
+    //                    }
+    //                    Console.WriteLine();
+    //                }
     //            }
     //        }
     //        else
