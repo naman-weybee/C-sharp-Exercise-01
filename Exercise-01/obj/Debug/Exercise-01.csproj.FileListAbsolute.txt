@@ -5,3 +5,10 @@ D:\.NET\Exercise-01\Exercise-01\Exercise-01\obj\Debug\Exercise-01.csproj.Assembl
 D:\.NET\Exercise-01\Exercise-01\Exercise-01\obj\Debug\Exercise-01.csproj.CoreCompileInputs.cache
 D:\.NET\Exercise-01\Exercise-01\Exercise-01\obj\Debug\Exercise-01.exe
 D:\.NET\Exercise-01\Exercise-01\Exercise-01\obj\Debug\Exercise-01.pdb
+D:\.NET\C# Basics Concepts\Exercise-01\Exercise-01\Exercise-01\bin\Debug\Exercise-01.exe.config
+D:\.NET\C# Basics Concepts\Exercise-01\Exercise-01\Exercise-01\bin\Debug\Exercise-01.exe
+D:\.NET\C# Basics Concepts\Exercise-01\Exercise-01\Exercise-01\bin\Debug\Exercise-01.pdb
+D:\.NET\C# Basics Concepts\Exercise-01\Exercise-01\Exercise-01\obj\Debug\Exercise-01.csproj.AssemblyReference.cache
+D:\.NET\C# Basics Concepts\Exercise-01\Exercise-01\Exercise-01\obj\Debug\Exercise-01.csproj.CoreCompileInputs.cache
+D:\.NET\C# Basics Concepts\Exercise-01\Exercise-01\Exercise-01\obj\Debug\Exercise-01.exe
+D:\.NET\C# Basics Concepts\Exercise-01\Exercise-01\Exercise-01\obj\Debug\Exercise-01.pdb
